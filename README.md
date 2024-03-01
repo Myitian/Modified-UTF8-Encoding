@@ -9,4 +9,4 @@ Some code modified from .NET source code.
 See [Wikipedia](https://en.wikipedia.org/wiki/UTF-8#Modified_UTF-8).
 
 ## Example
-![Example](https://github.com/Myitian/Modified-UTF8-Encoding/assets/76843407/96b7ad6e-5e77-464e-88fd-665121cac5ba)
+![Example](https://raw.githubusercontent.com/Myitian/Modified-UTF8-Encoding/main/.github/images/example.png)
