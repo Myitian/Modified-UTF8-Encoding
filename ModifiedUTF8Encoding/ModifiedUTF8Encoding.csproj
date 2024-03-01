@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.0;netstandard1.3;netstandard2.1</TargetFrameworks>
+    <RootNamespace>Myitian.Text</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>$(RootNameSpace).$(AssemblyName)</PackageId>
+    <Title>Modified UTF8 Encoding</Title>
+    <Authors>Myitian</Authors>
+    <Description>A C# implementation of Java's Modified UTF-8. It can decode UTF-8 and Modified UTF-8, and can encode Modified UTF-8.</Description>
+    <PackageProjectUrl>https://github.com/Myitian/Modified-UTF8-Encoding</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Myitian/Modified-UTF8-Encoding</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
