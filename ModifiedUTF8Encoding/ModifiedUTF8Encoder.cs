@@ -44,7 +44,7 @@ public partial class ModifiedUTF8Encoding
         {
             fixed (byte* bytesPtr = &MemoryMarshal.GetReference(bytes))
             fixed (char* charsPtr = &MemoryMarshal.GetReference(chars))
-                Convert(charsPtr, chars.Length, bytesPtr, bytes.Length, flush, out bytesUsed, out charsUsed, out completed);
+                Convert(charsPtr, chars.Length, bytesPtr, bytes.Length, flush, out charsUsed, out bytesUsed, out completed);
         }
 #endif
         protected unsafe void ConvertCommon(char* pChars, int charCount, byte* pBytes, int byteCount, out int charsUsed, out int bytesUsed)
