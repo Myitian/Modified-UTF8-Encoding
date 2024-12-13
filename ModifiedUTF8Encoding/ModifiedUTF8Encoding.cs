@@ -10,6 +10,8 @@ public partial class ModifiedUTF8Encoding : Encoding
     private const string FALLBACK_STR = "\uFFFD";
     private readonly bool _throwOnInvalidBytes;
 
+    public readonly static ModifiedUTF8Encoding Instance = new();
+
 #if NETSTANDARD1_3_OR_GREATER
     private readonly static DecoderReplacementFallback _fb = new(FALLBACK_STR);
 
